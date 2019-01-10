@@ -12,10 +12,10 @@
     <title>Galileo e20 - Iron Maiden Live</title>
     <!-- ========== Favicon Ico ========== -->
     <link rel="icon"
-		  type="image/png" 						
-		  href="myfav.png">
-	<!-- Togliere type="image/png" se usiamo un file ico-->
-	
+          type="image/png"
+          href="myfav.png">
+    <!-- Togliere type="image/png" se usiamo un file ico-->
+
     <!-- ========== STYLESHEETS ========== -->
     <!-- Bootstrap CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -33,783 +33,780 @@
 </head>
 
 <body>
-    <div class="loader">
-        <div class="loader-outter"></div>
-        <div class="loader-inner"></div>
-    </div>
+<div class="loader">
+    <div class="loader-outter"></div>
+    <div class="loader-inner"></div>
+</div>
 
-    <!--header start here -->
-    <header class="header navbar fixed-top navbar-expand-md" style="background-color: #18181c;">
-        <div class="container">
-            <a class="navbar-brand logo" href="#">
-                <img src="assets/img/logo.png" alt="Evento" />
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav" aria-expanded="false"
+<!--header start here -->
+<header class="header navbar fixed-top navbar-expand-md" style="background-color: #18181c;">
+    <div class="container">
+        <a class="navbar-brand logo" href="#">
+            <img src="assets/img/logo.png" alt="Evento"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav"
+                aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="lnr lnr-text-align-right"></span>
-            </button>
-            <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
-                <ul class=" nav navbar-nav menu">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#eventInfo">Dettagli evento</a>
-                    </li>
+            <span class="lnr lnr-text-align-right"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
+            <ul class=" nav navbar-nav menu">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#home">Home</a>
+                </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link " href="#speakers">Speakers</a>
-                    </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#eventInfo">Dettagli evento</a>
+                </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link " href="#prices">Prezzi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#news">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#contacts">Contatti</a>
-                    </li>
-                    <li class="search_btn">
-                        <a href="#">
-                            <i class="ion-ios-search"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <!--header end here-->
+                <li class="nav-item">
+                    <a class="nav-link " href="#prices">Prezzi</a>
+                </li>
 
-    <!--cover section slider -->
-    <section id="home" class="home-cover">
-        <div class="cover_slider owl-carousel owl-theme">
-            <div class="cover_item" style="background: url('assets/img/bg/slider.png');">
-                <div class="slider_content">
-                    <div class="slider-content-inner">
-                        <div class="container">
-                            <div class="slider-content-center">
-                                <h2 class="cover-title">
-                                    Prepare yourself for the
-                                </h2>
-                                <img src="assets/img/logomaiden.png">
-                                <p class="cover-date">
-                                    6 Febbraio 2019 - Padova, IT.
-                                </p>
-                                <a href="https://www.ticketone.it/" class=" btn btn-primary btn-rounded">
-                                    Acquista ora i biglietti
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cover_item" style="background: url('assets/img/bg/slider2.png');">
-                <div class="slider_content">
-                    <div class="slider-content-inner">
-                        <div class="container">
-                            <div class="slider-content-left">
-                                <h2 class="cover-title">
-                                    Kings Of Metal Rock
-                                </h2>
-                                <img src="assets/img/logomaiden.png">
-                                <p class="cover-date">
-                                    6 Febbraio 2019 - Padova, IT.
-                                </p>
-                                <a href="https://www.ticketone.it/" class=" btn btn-primary btn-rounded">
-                                    Acquista ora i biglietti
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cover_item" style="background: url('assets/img/bg/slider3.png');">
-                <div class="slider_content">
-                    <div class="slider-content-inner">
-                        <div class="container">
-                            <div class="slider-content-center">
-                                <h2 class="cover-title">
-                                    The Biggest Event Of The Year
-                                </h2>
-                                <img src="assets/img/logomaiden.png">
-                                <p class="cover-date">
-                                    6 Febbraio 2019 - Padova, IT.
-                                </p>
-                                <a href="https://www.ticketone.it/" class=" btn btn-primary btn-rounded">
-                                    Acquista ora i biglietti
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="cover_nav">
-            <ul class="cover_dots">
-                <li class="active" data="0"><span>1</span></li>
-                <li data="1"><span>2</span></li>
-                <li data="2"><span>3</span></li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#speakers">Speakers</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link " href="#news">News</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link " href="#contacts">Contatti</a>
+                </li>
+
+                <li class="search_btn">
+                    <a href="#">
+                        <i class="ion-ios-search"></i>
+                    </a>
+                </li>
             </ul>
         </div>
-    </section>
-    <!--cover section slider end -->
+    </div>
+</header>
+<!--header end here-->
 
-    <!--event info -->
-    <section class="pb100" id="eventInfo">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-6 col-md-3  ">
-                    <div class="icon_box_two">
-                        <i class="ion-ios-calendar-outline"></i>
-                        <div class="content">
-                            <h5 class="box_title">
-                                DATA
-                            </h5>
-                            <p>
-                                6 Febbraio 2019
+<!--cover section slider -->
+<section id="home" class="home-cover">
+    <div class="cover_slider owl-carousel owl-theme">
+        <div class="cover_item" style="background: url('assets/img/bg/slider.png');">
+            <div class="slider_content">
+                <div class="slider-content-inner">
+                    <div class="container">
+                        <div class="slider-content-center">
+                            <h2 class="cover-title">
+                                Prepare yourself for the
+                            </h2>
+                            <img src="assets/img/logomaiden.png">
+                            <p class="cover-date">
+                                6 Febbraio 2019 - Padova, IT.
                             </p>
+                            <a href="https://www.ticketone.it/" class=" btn btn-primary btn-rounded">
+                                Acquista ora i biglietti
+                            </a>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-6 col-md-3  ">
-                    <div class="icon_box_two">
-                        <i class="ion-ios-location-outline"></i>
-                        <div class="content">
-                            <h5 class="box_title">
-                                location
-                            </h5>
-                            <p>
-                                Teatro Geox, Padova
+            </div>
+        </div>
+        <div class="cover_item" style="background: url('assets/img/bg/slider2.png');">
+            <div class="slider_content">
+                <div class="slider-content-inner">
+                    <div class="container">
+                        <div class="slider-content-left">
+                            <h2 class="cover-title">
+                                Kings Of Metal Rock
+                            </h2>
+                            <img src="assets/img/logomaiden.png">
+                            <p class="cover-date">
+                                6 Febbraio 2019 - Padova, IT.
                             </p>
+                            <a href="https://www.ticketone.it/" class=" btn btn-primary btn-rounded">
+                                Acquista ora i biglietti
+                            </a>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-6 col-md-3  ">
-                    <div class="icon_box_two">
-                        <i class="ion-ios-person-outline"></i>
-                        <div class="content">
-                            <h5 class="box_title">
-                                speakers
-                            </h5>
-                            <p>
-                                Natalie James
-                                + guests
+            </div>
+        </div>
+        <div class="cover_item" style="background: url('assets/img/bg/slider3.png');">
+            <div class="slider_content">
+                <div class="slider-content-inner">
+                    <div class="container">
+                        <div class="slider-content-center">
+                            <h2 class="cover-title">
+                                The Biggest Event Of The Year
+                            </h2>
+                            <img src="assets/img/logomaiden.png">
+                            <p class="cover-date">
+                                6 Febbraio 2019 - Padova, IT.
                             </p>
+                            <a href="https://www.ticketone.it/" class=" btn btn-primary btn-rounded">
+                                Acquista ora i biglietti
+                            </a>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-6 col-md-3  ">
-                    <div class="icon_box_two">
-                        <i class="ion-ios-pricetag-outline"></i>
-                        <div class="content">
-                            <h5 class="box_title">
-                                Biglietti
-                            </h5>
-                            <p>
-                                A partire €100
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--event info end -->
-
-
-    <!--event countdown -->
-    <section class="bg-img pt70 pb70" style="background-image: url('assets/img/bg/bg-img.png');">
-        <div class="overlay_dark"></div>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-10">
-                    <h4 class="mb30 text-center color-light">Ci siamo quasi:</h4>
-                    <div class="countdown"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--event count down end-->
-
-
-    <!--about the event -->
-    <section class="pt100 pb100">
-        <div class="container">
-            <div class="section_title">
-                <h3 class="title">
-                    About the event
-                </h3>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-6">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing eli. Integer iaculis in lacus a
-                        sollicitudin. Ut hendrerit hendrerit nisl a accumsan. Pellentesque convallis consectetur tortor
-                        id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula
-                        euismod.
-                    </p>
-                </div>
-                <div class="col-12 col-md-6">
-                    <p>
-                        In rhoncus massa nec sollicitudin. Ut hendrerit hendrerit nisl a accumsan. Pellentesque
-                        convallis consectetur tortor id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus
-                        lectus, at volutpat ligula euismod quis. Maecenas ornare, ex in malesuada tempus.
-                    </p>
-                </div>
-            </div>
-
-            <!--event features-->
-            <div class="row justify-content-center mt30">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="icon_box_one">
-                        <i class="lnr lnr-car"></i>
-                        <div class="content">
-                            <h4>Parcheggi Speciali</h4>
-                            <p>
-                                Il Gran Teatro Geox è dotato di parcheggi riservati ai divezzamenti abili e di appositi Parcheggi Rosa (per signore in dolce attesa), gratuiti e immediatamente collegati alla struttura attraverso un percorso protetto e privo di barriere architettoniche.
-                            </p>
-                            <a href="#">per saperne di più</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="icon_box_one">
-                        <i class="lnr lnr-dinner"></i>
-                        <div class="content">
-                            <h4>Ristoro</h4>
-                            <p>
-                                Sarà presente un punto ristoro in cui degustare panini, tranci di pizza e ottima birra.
-                            </p>
-                            <a href="#">per saperne di più</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="icon_box_one">
-                        <i class="lnr lnr-users"></i>
-                        <div class="content">
-                            <h4>Capienza</h4>
-                            <p>
-                                Il Gran Teatro Geox è in grado di ospitare 2800<sup>+</sup> persone
-                            </p>
-                            <a href="#">per saperne di più</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--event features end-->
-        </div>
-    </section>
-    <!--about the event end -->
-
-    <!--Price section-->
-    <section class="pb100" id="prices">
-        <div class="container">
-            <div class="section_title mb50">
-                <h3 class="title">
-                    Pricing table
-                </h3>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-md-4 col-12">
-                    <div class="price_box active">
-                        <div class="price_highlight">
-                            VIP
-                        </div>
-                        <div class="price_header">
-                            <h4>
-                                Ingresso VIP
-                            </h4>
-                            <h6>
-                                accesso esclusivo
-                            </h6>
-                        </div>
-                        <div class="price_tag">
-                            250 <sup>€</sup>
-                        </div>
-                        <div class="price_features">
-                            <ul>
-                                <li>
-                                    Ingresso prioritario
-                                </li>
-                                <li>
-                                    Area gold sotto palco
-                                </li>
-                                <li>
-                                    Accesso al backstage
-                                </li>
-                                <li>
-                                    Promo gadget
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="price_footer">
-                            <a href="https://www.ticketone.it/" class="btn btn-primary btn-rounded">Acquista</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-12">
-                    <div class="price_box" style="height:432px;">
-                        <div class="price_header">
-                            <h4>
-                                Tribuna
-                            </h4>
-                            <h6>
-                                posto numerato
-                            </h6>
-                        </div>
-                        <div class="price_tag">
-                            150 <sup>€</sup>
-                        </div>
-                        <div class="price_features">
-                            <ul>
-                                <li>
-                                    Entrata riservata
-                                </li>
-
-                                <li>
-                                    Guardaroba Incluso
-                                </li>
-                                <li>
-                                    Promo gadget
-                                </li>
-
-                            </ul>
-                        </div>
-                        <div class="price_footer">
-                            <a href="https://www.ticketone.it/" class="btn btn-primary btn-rounded">Acquista</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-12">
-                    <div class="price_box">
-                        <div class="price_header">
-                            <h4>
-                                Parterre
-                            </h4>
-                            <h6>
-                                Per gli appassionati
-                            </h6>
-                        </div>
-                        <div class="price_tag">
-                            100 <sup>€</sup>
-                        </div>
-                        <div class="price_features">
-                            <ul>
-                                <li>
-                                    Promo gadget
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="price_footer">
-                            <a href="https://www.ticketone.it/" class="btn btn-primary btn-rounded">Acquista</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class=" col-12">
-                    <div class="price_box active">
-                        <div class="price_highlight">
-                            CONV
-                        </div>
-                        <div class="price_header">
-                            <h4>
-                                Convenzioni
-                            </h4>
-                            <h6>
-                                Alberghi e navette
-                            </h6>
-                        </div>
-                        <div class="price_tag">
-                            250 <sup>€</sup>
-                        </div>
-                        <div class="price_features" style="text-align: left">
-                            <ul>
-                                <li>
-                                    Hotel Pavantum *** - Camera singola 65 euro (1.1 km)
-                                </li>
-                                <li>
-                                    Hotel Europa **** - Camera Singola 78 euro (1.8 km)
-                                </li>
-                                <li>
-                                    10% sconto sul biglietto
-                                </li>
-                                <li>
-                                    Navetta disponibile, ogni10 minuti (18.00 / 19.00 andata - 00.30 / 01.30 ritorno)
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="price_footer">
-                            <a href="https://www.ticketone.it/" class="btn btn-primary btn-rounded">Acquista</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!--price section end -->
-
-    <!--speaker section-->
-    <section class="pt100 pb100" id="speakers">
-        <div class="container">
-            <div class="section_title mb50">
-                <h3 class="title">
-                    our team
-                </h3>
-            </div>
-        </div>
-        <div class="row justify-content-center no-gutters">
-            <div class="col-md-3 col-sm-6">
-                <div class="speaker_box">
-                    <div class="speaker_img">
-                        <img src="assets/img/speakers/s4.png" alt="speaker name">
-                        <div class="info_box">
-                            <h5 class="name">Matteo Guerra</h5>
-                            <p class="position">Project Manager</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="speaker_box">
-                    <div class="speaker_img">
-                        <img src="assets/img/speakers/s1.png" alt="speaker name">
-                        <div class="info_box">
-                            <h5 class="name">Luca Masiero</h5>
-                            <p class="position">Time Keeper</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="speaker_box">
-                    <div class="speaker_img">
-                        <img src="assets/img/speakers/s3.png" alt="speaker name">
-                        <div class="info_box">
-                            <h5 class="name">Luca Friso</h5>
-                            <p class="position">Technical Manager</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="speaker_box">
-                    <div class="speaker_img">
-                        <img src="assets/img/speakers/s2.png" alt="speaker name">
-                        <div class="info_box">
-                            <h5 class="name">Melissa Palazzo</h5>
-                            <p class="position">CEO Company</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="speaker_box">
-                    <div class="speaker_img">
-                        <img src="assets/img/speakers/s9.png" alt="speaker name">
-                        <div class="info_box">
-                            <h5 class="name">Bonacin Andrea</h5>
-                            <p class="position">Web Developer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="speaker_box">
-                    <div class="speaker_img">
-                        <img src="assets/img/speakers/s10.png" alt="speaker name">
-                        <div class="info_box">
-                            <h5 class="name">Mikele Milia</h5>
-                            <p class="position">Web Developer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="speaker_box">
-                    <div class="speaker_img">
-                        <img src="assets/img/speakers/s5.png" alt="speaker name">
-                        <div class="info_box">
-                            <h5 class="name">Andrea Cavazzini</h5>
-                            <p class="position">Web Developer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="speaker_box">
-                    <div class="speaker_img">
-                        <img src="assets/img/speakers/s6.png" alt="speaker name">
-                        <div class="info_box">
-                            <h5 class="name">Luca Lezzi</h5>
-                            <p class="position">Advertising Campaign</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="speaker_box">
-                    <div class="speaker_img">
-                        <img src="assets/img/speakers/s7.png" alt="speaker name">
-                        <div class="info_box">
-                            <h5 class="name"></h5>
-                            <p class="position">...</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="speaker_box">
-                    <div class="speaker_img">
-                        <img src="assets/img/speakers/s8.png" alt="speaker name">
-                        <div class="info_box">
-                            <h5 class="name">Carlo Leo</h5>
-                            <p class="position">Security Manager</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--speaker section end -->
-
-
-    <!--event calender-->
-    <section class="pb100" id="news">
-        <div class="container">
-            <div class="table-responsive">
-                <table class="event_calender table">
-                    <thead class="event_title">
-                        <tr>
-                            <th>
-                                <i class="ion-ios-calendar-outline"></i>
-                                <span>next events calendar</span>
-                            </th>
-                            <th></th>
-                            <th></th>
-                            <th></th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <img src="assets/img/cleander/c1.png" alt="event">
-                            </td>
-                            <td class="event_date">
-                                14
-                                <span>February</span>
-                            </td>
-                            <td>
-                                <div class="event_place">
-                                    <h5>Muse</h5>
-                                    <p>New Age Club - Roncade (Treviso)</p>
-                                </div>
-                            </td>
-                            <td>
-                                <a href="#" class="btn btn-primary btn-rounded">per saperne di più</a>
-                            </td>
-                            <td class="buy_link">
-                                <a href="#">Acquista</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img src="assets/img/cleander/c2.png" alt="event">
-                            </td>
-                            <td class="event_date">
-                                18
-                                <span>February</span>
-                            </td>
-                            <td>
-                                <div class="event_place">
-                                    <h5>30 Seconds To Mars</h5>
-                                    <p>Stadio Omobono Tenni - Treviso</p>
-                                </div>
-                            </td>
-                            <td>
-                                <a href="#" class="btn btn-primary btn-rounded">per saperne di più</a>
-                            </td>
-                            <td class="buy_link">
-                                <a href="#">Acquista</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img src="assets/img/cleander/c3.png" alt="event">
-                            </td>
-                            <td class="event_date">
-                                22
-                                <span>February</span>
-                            </td>
-                            <td>
-                                <div class="event_place">
-                                    <h5>Franz Ferdinand</h5>
-                                    <p>Arena di Verona - Verona</p>
-                                </div>
-                            </td>
-                            <td>
-                                <a href="#" class="btn btn-primary btn-rounded">per saperne di più</a>
-                            </td>
-                            <td class="buy_link">
-                                <a href="#">Acquista</a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-    <!--event calender end -->
-
-    <!--brands section -->
-    <section class="bg-gray pt100 pb100">
-        <div class="container">
-            <div class="section_title mb50">
-                <h3 class="title">
-                    our partners
-                </h3>
-            </div>
-            <div class="brand_carousel owl-carousel">
-                <div class="brand_item text-center">
-                    <img src="assets/img/brands/b1.png" alt="brand">
-                </div>
-                <div class="brand_item text-center">
-                    <img src="assets/img/brands/b2.png" alt="brand">
-                </div>
-
-                <div class="brand_item text-center">
-                    <img src="assets/img/brands/b3.png" alt="brand">
-                </div>
-                <div class="brand_item text-center">
-                    <img src="assets/img/brands/b4.png" alt="brand">
-                </div>
-                <div class="brand_item text-center">
-                    <img src="assets/img/brands/b5.png" alt="brand">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--brands section end-->
-
-    <!--get tickets section -->
-    <section class="bg-img pt100 pb100" style="background-image: url('assets/img/bg/tickets.png');">
-        <div class="container">
-            <div class="section_title mb30">
-                <h3 class="title color-light">
-                    GEt your tickets
-                </h3>
-            </div>
-            <div class="row justify-content-center align-items-center">
-                <div class="col-md-9 text-md-left text-center color-light">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec gravida tempus.
-                    Integer iaculis in aazzzCurabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat
-                    ligula euismod.
-                </div>
-                <div class="col-md-3 text-md-right text-center">
-                    <a href="https://www.ticketone.it/" class="btn btn-primary btn-rounded mt30">Acquista</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--get tickets section end-->
-
-    <!--footer start -->
-    <footer id="contacts">
-        <div class="container">
-            <div class="row justify-content-center">
-
-                <div class="col-md-4 col-12">
-                    <div class="footer_box">
-                        <div class="footer_header">
-                            <div class="footer_logo">
-                                <img src="assets/img/logo.png" alt="evento">
-                            </div>
-                        </div>
-                        <div class="footer_box_body">
-
-                            <ul class="footer_social">
-                                <li>
-                                    <a href="#"><i class="ion-social-pinterest"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="ion-social-facebook"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="ion-social-twitter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="ion-social-dribbble"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="ion-social-instagram"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-4">
-                    <div class="footer_box">
-                        <div class="footer_header">
-                            <h4 class="footer_title">
-                                subscribe to our newsletter
-                            </h4>
-                        </div>
-                        <div class="footer_box_body">
-                            <div class="newsletter_form">
-                                <input type="email" class="form-control" placeholder="E-Mail here">
-                                <button class="btn btn-rounded btn-block btn-primary">SUBSCRIBE</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <div class="copyright_footer">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-6 col-12">
-                    <p>
-
-                        Galileo e20 | Copyright &copy;
-                        <script>document.write(new Date().getFullYear());</script>
-                        All rights reserved
-
-                    </p>
                 </div>
             </div>
         </div>
     </div>
-    <!--footer end -->
+    <div class="cover_nav">
+        <ul class="cover_dots">
+            <li class="active" data="0"><span>1</span></li>
+            <li data="1"><span>2</span></li>
+            <li data="2"><span>3</span></li>
+        </ul>
+    </div>
+</section>
+<!--cover section slider end -->
 
-    <!-- jquery -->
-    <script src="assets/js/jquery.min.js"></script>
-    <!-- bootstrap -->
-    <script src="assets/js/popper.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <!--slick carousel -->
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <!--parallax -->
-    <script src="assets/js/parallax.min.js"></script>
-    <!--Counter up -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <!--Counter down -->
-    <script src="assets/js/jquery.countdown.min.js"></script>
-    <!-- WOW JS -->
-    <script src="assets/js/wow.min.js"></script>
-    <!-- Custom js -->
-    <script src="assets/js/main.js"></script>
+<!--event info -->
+<section class="pb100" id="eventInfo">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-6 col-md-3  ">
+                <div class="icon_box_two">
+                    <i class="ion-ios-calendar-outline"></i>
+                    <div class="content">
+                        <h5 class="box_title">
+                            DATA
+                        </h5>
+                        <p>
+                            6 Febbraio 2019
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3  ">
+                <div class="icon_box_two">
+                    <i class="ion-ios-location-outline"></i>
+                    <div class="content">
+                        <h5 class="box_title">
+                            location
+                        </h5>
+                        <p>
+                            Teatro Geox, Padova
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3  ">
+                <div class="icon_box_two">
+                    <i class="ion-ios-person-outline"></i>
+                    <div class="content">
+                        <h5 class="box_title">
+                            speakers
+                        </h5>
+                        <p>
+                            Natalie James
+                            + guests
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3  ">
+                <div class="icon_box_two">
+                    <i class="ion-ios-pricetag-outline"></i>
+                    <div class="content">
+                        <h5 class="box_title">
+                            Biglietti
+                        </h5>
+                        <p>
+                            A partire €100
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--event info end -->
+
+
+<!--event countdown -->
+<section class="bg-img pt70 pb70" style="background-image: url('assets/img/bg/bg-img.png');">
+    <div class="overlay_dark"></div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10">
+                <h4 class="mb30 text-center color-light">Ci siamo quasi:</h4>
+                <div class="countdown"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--event count down end-->
+
+<!--about the event -->
+<section class="pt100 pb100">
+    <div class="container">
+        <div class="section_title">
+            <h3 class="title">
+                About the event
+            </h3>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing eli. Integer iaculis in lacus a
+                    sollicitudin. Ut hendrerit hendrerit nisl a accumsan. Pellentesque convallis consectetur tortor
+                    id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula
+                    euismod.
+                </p>
+            </div>
+            <div class="col-12 col-md-6">
+                <p>
+                    In rhoncus massa nec sollicitudin. Ut hendrerit hendrerit nisl a accumsan. Pellentesque
+                    convallis consectetur tortor id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus
+                    lectus, at volutpat ligula euismod quis. Maecenas ornare, ex in malesuada tempus.
+                </p>
+            </div>
+        </div>
+
+        <!--event features-->
+        <div class="row justify-content-center mt30">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="icon_box_one">
+                    <i class="lnr lnr-car"></i>
+                    <div class="content">
+                        <h4>Parcheggi Speciali</h4>
+                        <p>
+                            Il Gran Teatro Geox è dotato di parcheggi riservati ai divezzamenti abili e di appositi
+                            Parcheggi Rosa (per signore in dolce attesa), gratuiti e immediatamente collegati alla
+                            struttura attraverso un percorso protetto e privo di barriere architettoniche.
+                        </p>
+                        <a href="#">per saperne di più</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="icon_box_one">
+                    <i class="lnr lnr-dinner"></i>
+                    <div class="content">
+                        <h4>Ristoro</h4>
+                        <p>
+                            Sarà presente un punto ristoro in cui degustare panini, tranci di pizza e ottima birra.
+                        </p>
+                        <a href="#">per saperne di più</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="icon_box_one">
+                    <i class="lnr lnr-users"></i>
+                    <div class="content">
+                        <h4>Capienza</h4>
+                        <p>
+                            Il Gran Teatro Geox è in grado di ospitare 2800<sup>+</sup> persone
+                        </p>
+                        <a href="#">per saperne di più</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--event features end-->
+    </div>
+</section>
+<!--about the event end -->
+
+<!--Price section-->
+<section class="pb50" id="prices">
+    <div class="container">
+        <div class="section_title mb50">
+            <h3 class="title">
+                Pricing table
+            </h3>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-3 col-12">
+                <div class="price_box">
+                    <div class="price_header">
+                        <h4>
+                            Parterre
+                        </h4>
+                        <h6>
+                            Per gli appassionati
+                        </h6>
+                    </div>
+                    <div class="price_tag">
+                        85 <sup>€</sup>
+                    </div>
+                    <div class="price_features">
+                        <ul>
+                            <li>
+                                Promo gadget
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="price_footer">
+                        <a href="https://www.ticketone.it/" class="btn btn-primary btn-rounded">Acquista</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-12">
+                <div class="price_box" style="height:432px;">
+                    <div class="price_header">
+                        <h4>
+                            Tribuna
+                        </h4>
+                        <h6>
+                            posto numerato
+                        </h6>
+                    </div>
+                    <div class="price_tag">
+                        105 <sup>€</sup>
+                    </div>
+                    <div class="price_features">
+                        <ul>
+                            <li>
+                                Entrata riservata
+                            </li>
+
+                            <li>
+                                Guardaroba Incluso
+                            </li>
+                            <li>
+                                Promo gadget
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="price_footer">
+                        <a href="https://www.ticketone.it/" class="btn btn-primary btn-rounded">Acquista</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-12">
+                <div class="price_box active">
+                    <div class="price_highlight">
+                        VIP
+                    </div>
+                    <div class="price_header">
+                        <h4>
+                            Ingresso VIP
+                        </h4>
+                        <h6>
+                            accesso esclusivo
+                        </h6>
+                    </div>
+                    <div class="price_tag">
+                        155 <sup>€</sup>
+                    </div>
+                    <div class="price_features">
+                        <ul>
+                            <li>
+                                Ingresso prioritario
+                            </li>
+                            <li>
+                                Area gold sotto palco
+                            </li>
+                            <li>
+                                Accesso al backstage
+                            </li>
+                            <li>
+                                Promo gadget
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="price_footer">
+                        <a href="https://www.ticketone.it/" class="btn btn-primary btn-rounded">Acquista</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-12">
+                <div class="price_box active">
+                    <div class="price_header">
+                        <h4>
+                            Convenzioni
+                        </h4>
+                        <h6>
+                            Alberghi - navette
+                        </h6>
+                    </div>
+                    <div class="price_tag">
+                        -10%
+                    </div>
+                    <div class="price_features">
+                        <ul>
+                            <li>
+                                Hotel Pavantum *** <br/> Singola 65 euro (1.1 km)
+                            </li>
+                            <li>
+                                Hotel Europa **** <br/> Singola 78 euro (1.8 km)
+                            </li>
+                            <li>
+                                Navetta disponibile <br/> 18.00 - 19.00 <br/> 00.30 - 01.30
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="price_footer">
+                        <a href="https://www.ticketone.it/" class="btn btn-primary btn-rounded">Acquista</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--price section end -->
+
+<!--speaker section-->
+<section class="pt100 pb100">
+    <div class="container">
+        <div class="section_title mb50" id="speakers">
+            <h3 class="title">
+                our team
+            </h3>
+        </div>
+    </div>
+    <div class="row justify-content-center no-gutters">
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s4.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Matteo Guerra</h5>
+                        <p class="position">Project Manager</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s1.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Luca Masiero</h5>
+                        <p class="position">Time Keeper</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s3.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Luca Friso</h5>
+                        <p class="position">Technical Manager</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s2.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Melissa Palazzo</h5>
+                        <p class="position">CEO Company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s9.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Bonacin Andrea</h5>
+                        <p class="position">Web Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s10.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Mikele Milia</h5>
+                        <p class="position">Web Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s5.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Andrea Cavazzini</h5>
+                        <p class="position">Web Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s6.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Luca Lezzi</h5>
+                        <p class="position">Advertising Campaign</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s7.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name"></h5>
+                        <p class="position">...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s8.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Carlo Leo</h5>
+                        <p class="position">Security Manager</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--speaker section end -->
+
+<!--event calender-->
+<section class="pb100" id="news">
+    <div class="container">
+        <div class="table-responsive">
+            <table class="event_calender table">
+                <thead class="event_title">
+                <tr>
+                    <th>
+                        <i class="ion-ios-calendar-outline"></i>
+                        <span>next events calendar</span>
+                    </th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        <img src="assets/img/cleander/c1.png" alt="event">
+                    </td>
+                    <td class="event_date">
+                        14
+                        <span>February</span>
+                    </td>
+                    <td>
+                        <div class="event_place">
+                            <h5>Muse</h5>
+                            <p>New Age Club - Roncade (Treviso)</p>
+                        </div>
+                    </td>
+                    <td>
+                        <a href="#" class="btn btn-primary btn-rounded">per saperne di più</a>
+                    </td>
+                    <td class="buy_link">
+                        <a href="#">Acquista</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="assets/img/cleander/c2.png" alt="event">
+                    </td>
+                    <td class="event_date">
+                        18
+                        <span>February</span>
+                    </td>
+                    <td>
+                        <div class="event_place">
+                            <h5>30 Seconds To Mars</h5>
+                            <p>Stadio Omobono Tenni - Treviso</p>
+                        </div>
+                    </td>
+                    <td>
+                        <a href="#" class="btn btn-primary btn-rounded">per saperne di più</a>
+                    </td>
+                    <td class="buy_link">
+                        <a href="#">Acquista</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="assets/img/cleander/c3.png" alt="event">
+                    </td>
+                    <td class="event_date">
+                        22
+                        <span>February</span>
+                    </td>
+                    <td>
+                        <div class="event_place">
+                            <h5>Franz Ferdinand</h5>
+                            <p>Arena di Verona - Verona</p>
+                        </div>
+                    </td>
+                    <td>
+                        <a href="#" class="btn btn-primary btn-rounded">per saperne di più</a>
+                    </td>
+                    <td class="buy_link">
+                        <a href="#">Acquista</a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+<!--event calender end -->
+
+<!--brands section -->
+<section class="bg-gray pt100 pb100">
+    <div class="container">
+        <div class="section_title mb50">
+            <h3 class="title">
+                our partners
+            </h3>
+        </div>
+        <div class="brand_carousel owl-carousel">
+            <div class="brand_item text-center">
+                <img src="assets/img/brands/b1.png" alt="brand">
+            </div>
+            <div class="brand_item text-center">
+                <img src="assets/img/brands/b2.png" alt="brand">
+            </div>
+
+            <div class="brand_item text-center">
+                <img src="assets/img/brands/b3.png" alt="brand">
+            </div>
+            <div class="brand_item text-center">
+                <img src="assets/img/brands/b4.png" alt="brand">
+            </div>
+            <div class="brand_item text-center">
+                <img src="assets/img/brands/b5.png" alt="brand">
+            </div>
+        </div>
+    </div>
+</section>
+<!--brands section end-->
+
+<!--get tickets section -->
+<section class="bg-img pt100 pb100" style="background-image: url('assets/img/bg/tickets.png');">
+    <div class="container">
+        <div class="section_title mb30">
+            <h3 class="title color-light">
+                GEt your tickets
+            </h3>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-9 text-md-left text-center color-light">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec gravida tempus.
+                Integer iaculis in aazzzCurabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat
+                ligula euismod.
+            </div>
+            <div class="col-md-3 text-md-right text-center">
+                <a href="https://www.ticketone.it/" class="btn btn-primary btn-rounded mt30">Acquista</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--get tickets section end-->
+
+<!--footer start -->
+<footer id="contacts">
+    <div class="container">
+        <div class="row justify-content-center">
+
+            <div class="col-md-4 col-12">
+                <div class="footer_box">
+                    <div class="footer_header">
+                        <div class="footer_logo">
+                            <img src="assets/img/logo.png" alt="evento">
+                        </div>
+                    </div>
+                    <div class="footer_box_body">
+
+                        <ul class="footer_social">
+                            <li>
+                                <a href="#"><i class="ion-social-pinterest"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="ion-social-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="ion-social-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="ion-social-dribbble"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="ion-social-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="footer_box">
+                    <div class="footer_header">
+                        <h4 class="footer_title">
+                            subscribe to our newsletter
+                        </h4>
+                    </div>
+                    <div class="footer_box_body">
+                        <div class="newsletter_form">
+                            <input type="email" class="form-control" placeholder="E-Mail here">
+                            <button class="btn btn-rounded btn-block btn-primary">SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="copyright_footer">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-12">
+                <p>
+
+                    Galileo e20 | Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script>
+                    All rights reserved
+
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer end -->
+
+<!-- jquery -->
+<script src="assets/js/jquery.min.js"></script>
+<!-- bootstrap -->
+<script src="assets/js/popper.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+<!--slick carousel -->
+<script src="assets/js/owl.carousel.min.js"></script>
+<!--parallax -->
+<script src="assets/js/parallax.min.js"></script>
+<!--Counter up -->
+<script src="assets/js/jquery.counterup.min.js"></script>
+<!--Counter down -->
+<script src="assets/js/jquery.countdown.min.js"></script>
+<!-- WOW JS -->
+<script src="assets/js/wow.min.js"></script>
+<!-- Custom js -->
+<script src="assets/js/main.js"></script>
 </body>
 
 </html>
